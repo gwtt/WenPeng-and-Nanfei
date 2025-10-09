@@ -1,6 +1,6 @@
 
 ```GDScript
-extends Node
+extends Resource
 class_name BaseCapability
 
 @export var capability_component: CapabilityComponent

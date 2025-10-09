@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"4cc14e0a542b8771","type":"file","file":"Godot/Capabilities架构/文档/capability_manager.md","x":-1200,"y":-240,"width":540,"height":840},
+		{"id":"fa5bb56985364864","type":"file","file":"Godot/Capabilities架构/文档/capability_sheet.md","x":-640,"y":-240,"width":800,"height":840},
+		{"id":"fe8b0ce6a1abc68a","type":"file","file":"Godot/Capabilities架构/文档/base_capability.md","x":-1800,"y":-240,"width":570,"height":840},
+		{"id":"cb5ea2fd45f4f856","type":"file","file":"Godot/Capabilities架构/Exceldraw图/架构大纲图.md","x":-1800,"y":-1320,"width":1140,"height":1040},
+		{"id":"4c82f230ca5994d1","type":"text","text":"CapabilitySheet = 纯配置资源，用来批量实例化 Component + Capability；\nCapabilityComponent = 运行时管理者，负责加载 Sheet、注册/注销 Capability、维护 Tag 互斥；\n记住只有 CapabilitySystem 能直接拿到实例；游戏其它脚本只能通过组件数据沟通，避免面条依赖。","x":-1800,"y":640,"width":800,"height":120},
+		{"id":"bad2fc70e6d366b2","type":"file","file":"Godot/Capabilities架构/文档/capability_component.md","x":200,"y":-240,"width":640,"height":841},
+		{"id":"276a2c4fc7fe6795","type":"file","file":"Godot/Capabilities架构/文档/案例/案例总览.md","x":-1800,"y":920,"width":630,"height":760},
+		{"id":"3a64ec1511288a0d","type":"file","file":"Godot/Capabilities架构/文档/案例/stats_component.md","x":-1800,"y":1720,"width":400,"height":400},
+		{"id":"95781eadbc649ab3","type":"file","file":"Godot/Capabilities架构/文档/案例/projectile_move_cap.md","x":-1370,"y":1720,"width":400,"height":400},
+		{"id":"b955e9264cf48f8c","type":"text","text":"## player_sheet.tres\n\ncomponent_scenes:\n- stats_component.tscn\n\ncapability_scripts:\n- player_move_cap.gd\n- auto_shoot_cap.gd","x":-1800,"y":2140,"width":400,"height":300},
+		{"id":"e442b7318a2d4e85","type":"text","text":"## projectile_sheet.tres\n\ncapability_scripts:\n- projectile_move_cap.gd","x":-1370,"y":2140,"width":400,"height":300},
+		{"id":"57c9ff8d69f34f83","type":"file","file":"Godot/Capabilities架构/文档/案例/player_move_cap.md","x":-930,"y":1720,"width":400,"height":400},
+		{"id":"e7bce5aee33dc2f1","type":"file","file":"Godot/Capabilities架构/文档/案例/auto_shoot_cap.md","x":-480,"y":1720,"width":400,"height":400},
+		{"id":"f100bd2105742981","type":"text","text":"# 其余案例\n\n\n下面是一个怪物攻击玩家的案例流程\n\n1. EnemyMeleeAttackCap.tick_active  \n    └─ _spawn_hitbox() → 在场景里生成 HitBox（Area2D）\n    \n2. HitBoxCap.setup  \n    └─ 给 Area2D 连接 body_entered → 指向 HitBoxCap._on_body()\n    \n3. 物理检测命中玩家  \n    └─ HitBoxCap._on_body(player)  \n    └─ 找到 player.HealthCap → HealthCap.apply_damage(dmg, instigator)\n    \n4. HealthCap.apply_damage  \n    ├─ hp -= dmg  \n    └─ if hp <= 0 :  \n    • owner.emit_signal(\"died\", instigator)  \n    • owner.CapabilityComponent.runtime_add_sheet(player_death_sheet)\n    \n5. CapabilityComponent.runtime_add_sheet  \n    └─ _load_sheets() → 实例化 PlayerDeathCap 并注册到 CapabilitySystem\n    \n6. 下一逻辑帧  \n    └─ PlayerDeathCap.should_activate → true  \n    └─ PlayerDeathCap.on_activated  \n    • block(MOVE) / block(SHOOT) → CapabilityComponent.block_capabilities  \n    • 播放死亡动画 / 生成尸体 / queue_free(player)\n\n核心链路就是：  \nEnemyMeleeAttackCap.tick_active → \nHitBoxCap._on_body → \nHealthCap.apply_damage → \nCapabilityComponent.runtime_add_sheet → \nPlayerDeathCap.on_activated","x":-1800,"y":2460,"width":800,"height":760},
+		{"id":"8af3ea3aa7e37b10","type":"file","file":"Godot/Capabilities架构/文档/案例/action_queue/action_queue.md","x":1000,"y":-1320,"width":800,"height":1040},
+		{"id":"78235dfcb22b15b1","type":"file","file":"Godot/Capabilities架构/文档/案例/action_queue/案例 1：玩家死亡流程.md","x":1840,"y":-1320,"width":840,"height":1040},
+		{"id":"278283cdf052778d","x":2700,"y":-1320,"width":740,"height":720,"type":"file","file":"Godot/Capabilities架构/文档/案例/action_queue/案例 2：交互拾取宝箱.md"}
+	],
+	"edges":[]
+}
