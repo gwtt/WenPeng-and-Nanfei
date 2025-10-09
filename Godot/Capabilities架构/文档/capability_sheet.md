@@ -3,12 +3,12 @@
 extends Resource
 class_name CapabilitySheet
 
-@export var component_scenes : Array[PackedScene]           # Stats, Input 等
-@export var capability_scripts : Array[Script]              # PlayerMoveCap.gd ...
-@export var nested_sheets : Array[CapabilitySheet]          # 可以进一步组合
+@export var component_scenes : Array[PackedScene]           
+@export var capability_scripts : Array[Script]              
+@export var nested_sheets : Array[CapabilitySheet]
 
-func instantiate(owner: Node) -> Array[Capability]:
-	var caps: Array[Capability] = []
+func instantiate(owner: Node) -> Array[BaseCapability]:
+	var caps: Array[BaseCapability] = []
 
 	for scene in component_scenes: 
 		var node_name := scene.resource_path.get_file().get_basename() 
@@ -20,7 +20,7 @@ func instantiate(owner: Node) -> Array[Capability]:
 
 	# 2. 创建 Capability 实例
 	for scr in capability_scripts:
-		var cap: Capability = scr.new()
+		var cap: BaseCapability = scr.new()
 		caps.append(cap)
 
 	# 3. 递归嵌套 Sheet
@@ -28,6 +28,7 @@ func instantiate(owner: Node) -> Array[Capability]:
 		caps.append_array(sheet.instantiate(owner))
 
 	return caps
+
 
 ```
 用途：

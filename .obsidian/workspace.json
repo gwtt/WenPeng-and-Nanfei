@@ -25,14 +25,17 @@
             "id": "6fb52c961d0a554b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Godot/Capabilities架构/画布/大全.canvas",
+                "viewState": {
+                  "x": -967.6620961517754,
+                  "y": 167.8533938001684,
+                  "zoom": -0.2845719115354041
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-layout-dashboard",
+              "title": "大全"
             }
           },
           {
@@ -192,7 +195,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -204,6 +206,7 @@
   },
   "active": "6fb52c961d0a554b",
   "lastOpenFiles": [
+    "README.md",
     "Godot/Capabilities架构/画布/大全.canvas",
     "Godot/Capabilities架构/文档/案例/action_queue/案例 2：交互拾取宝箱.md",
     "Godot/Capabilities架构/文档/案例/案例总览.md",
@@ -229,7 +232,6 @@
     "Excalidraw",
     "Capabilities架构/Drawing 2025-10-09 16.05.28.excalidraw.md",
     "未命名.canvas",
-    "README.md",
     "spark builder.md",
     "Godot/Capabilities架构",
     "创建链接.md"
