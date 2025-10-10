@@ -4,52 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "e1e2c9ef1ca20bf8",
+        "id": "2c396990b84a9902",
         "type": "tabs",
         "children": [
           {
-            "id": "020d23aeb1a11bc4",
+            "id": "731c7db1c5d3e96d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Capabilities架构/文档/base_capability.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "base_capability"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
-            "id": "6fb52c961d0a554b",
+            "id": "fbdb1ec1f2b06019",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Godot/小型工具/事件总线.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "7cc288eb0f682dba",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Capabilities架构/画布/画布.canvas",
-                "viewState": {
-                  "x": -1520,
-                  "y": 180,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "画布"
+              "title": "事件总线"
             }
           }
         ],
@@ -110,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 245.5
   },
   "right": {
     "id": "492437032ae878a0",
@@ -202,24 +181,30 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6fb52c961d0a554b",
+  "active": "fbdb1ec1f2b06019",
   "lastOpenFiles": [
+    "Godot/小型工具",
     "Godot/Capabilities架构/画布/大全.canvas",
-    "Godot/Capabilities架构/文档/案例/action_queue/案例 2：交互拾取宝箱.md",
-    "Godot/Capabilities架构/文档/案例/案例总览.md",
-    "Godot/Capabilities架构/文档/案例/action_queue/案例 1：玩家死亡流程.md",
-    "Godot/Capabilities架构/文档/案例/action_queue/action_queue.md",
-    "Godot/Capabilities架构/文档/案例/action_queue",
-    "Godot/Capabilities架构/文档/capability_sheet.md",
-    "Godot/Capabilities架构/文档/capability_manager.md",
-    "Godot/Capabilities架构/文档/capability_component.md",
-    "Godot/Capabilities架构/文档/base_capability.md",
+    "Godot/小型工具/事件总线.md",
+    "Godot/Capabilities架构/文档/案例/结构案例.md",
+    "Godot/事件总线",
+    "Godot/Capabilities架构/文档/案例/auto_shoot_cap.md",
     "Godot/Capabilities架构/文档/案例/player_move_cap.md",
+    "Godot/Capabilities架构/文档/base_capability.md",
+    "Godot/Capabilities架构/文档/capability_component.md",
+    "Godot/Capabilities架构/文档/capability_manager.md",
+    "Godot/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
+    "Godot/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
+    "Godot/Capabilities架构/Root.md",
+    "Godot/Capabilities架构/文档/action_queue/action_queue.md",
+    "Godot/Capabilities架构/Exceldraw图/架构大纲图.md",
+    "Godot/Capabilities架构/总览.base",
+    "README.md",
+    "Godot/Capabilities架构/文档/capability_sheet.md",
+    "Godot/Capabilities架构/文档/action_queue",
     "Godot/Capabilities架构/文档/案例/projectile_move_cap.md",
     "Godot/Capabilities架构/文档/案例/stats_component.md",
-    "Godot/Capabilities架构/文档/案例/auto_shoot_cap.md",
     "Godot/Capabilities架构/文档/案例",
-    "Godot/Capabilities架构/Exceldraw图/架构大纲图.md",
     "Godot",
     "Godot/Capabilities架构/画布",
     "Capabilities架构/未命名.md",
@@ -229,7 +214,6 @@
     "Excalidraw",
     "Capabilities架构/Drawing 2025-10-09 16.05.28.excalidraw.md",
     "未命名.canvas",
-    "README.md",
     "spark builder.md",
     "Godot/Capabilities架构",
     "创建链接.md"
