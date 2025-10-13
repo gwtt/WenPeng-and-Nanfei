@@ -1,3 +1,6 @@
+![[Pasted image 20251013204628.png]]
+需要放在TV Spirte2d下，会将范围内的物体都带上这种电视机特效。
+但是如果一个场景有两个，就不会起作用。
 
 [CRT（大屁股屏幕）特效 godot4教程 shader分享_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1TL8ozeE6R/?spm_id_from=333.337.search-card.all.click&vd_source=564ed778d24ae60e88181db996c35664)
 ```glsl
