@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2c396990b84a9902",
+        "id": "4670c0af13089c45",
         "type": "tabs",
         "children": [
           {
-            "id": "731c7db1c5d3e96d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
-            "id": "fbdb1ec1f2b06019",
+            "id": "3405971670f191a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/小型工具/事件总线.md",
+                "file": "Godot/shader/电视机故障风.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "事件总线"
+              "title": "电视机故障风"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 440.5
   },
   "right": {
     "id": "492437032ae878a0",
@@ -181,29 +170,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fbdb1ec1f2b06019",
+  "active": "3405971670f191a6",
   "lastOpenFiles": [
-    "Godot/小型工具",
+    "Godot/shader/电视机故障风.md",
+    "Godot/shader",
+    "Godot/Drawing 2025-10-11 21.16.01.excalidraw.md",
     "Godot/Capabilities架构/画布/大全.canvas",
-    "Godot/小型工具/事件总线.md",
-    "Godot/Capabilities架构/文档/案例/结构案例.md",
-    "Godot/事件总线",
-    "Godot/Capabilities架构/文档/案例/auto_shoot_cap.md",
-    "Godot/Capabilities架构/文档/案例/player_move_cap.md",
-    "Godot/Capabilities架构/文档/base_capability.md",
-    "Godot/Capabilities架构/文档/capability_component.md",
-    "Godot/Capabilities架构/文档/capability_manager.md",
     "Godot/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
-    "Godot/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
-    "Godot/Capabilities架构/Root.md",
-    "Godot/Capabilities架构/文档/action_queue/action_queue.md",
     "Godot/Capabilities架构/Exceldraw图/架构大纲图.md",
-    "Godot/Capabilities架构/总览.base",
-    "README.md",
+    "Godot/Capabilities架构/文档/capability_manager.md",
     "Godot/Capabilities架构/文档/capability_sheet.md",
+    "Godot/Capabilities架构/文档/capability_component.md",
+    "Godot/Capabilities架构/文档/base_capability.md",
+    "Godot/Capabilities架构/文档/action_queue/action_queue.md",
+    "Godot/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
+    "Godot/小型工具/事件总线.md",
+    "Godot/小型工具",
+    "Godot/Capabilities架构/文档/案例/结构案例.md",
     "Godot/Capabilities架构/文档/action_queue",
+    "README.md",
+    "Godot/Capabilities架构/文档/案例/action_queue/案例 2：交互拾取宝箱.md",
+    "Godot/Capabilities架构/文档/案例/案例总览.md",
+    "Godot/Capabilities架构/文档/案例/action_queue/案例 1：玩家死亡流程.md",
+    "Godot/Capabilities架构/文档/案例/action_queue/action_queue.md",
+    "Godot/Capabilities架构/文档/案例/action_queue",
+    "Godot/Capabilities架构/文档/案例/player_move_cap.md",
     "Godot/Capabilities架构/文档/案例/projectile_move_cap.md",
     "Godot/Capabilities架构/文档/案例/stats_component.md",
+    "Godot/Capabilities架构/文档/案例/auto_shoot_cap.md",
     "Godot/Capabilities架构/文档/案例",
     "Godot",
     "Godot/Capabilities架构/画布",
@@ -215,7 +209,6 @@
     "Capabilities架构/Drawing 2025-10-09 16.05.28.excalidraw.md",
     "未命名.canvas",
     "spark builder.md",
-    "Godot/Capabilities架构",
     "创建链接.md"
   ]
 }
