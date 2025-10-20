@@ -6,7 +6,6 @@
       {
         "id": "4670c0af13089c45",
         "type": "tabs",
-        "dimension": 63.114754098360656,
         "children": [
           {
             "id": "3405971670f191a6",
@@ -14,37 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/小型工具/插件/godot_dialogue_manager对话插件.md",
+                "file": "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "godot_dialogue_manager对话插件"
-            },
-            "group": "c11bcea3bf1ca1c7"
-          }
-        ]
-      },
-      {
-        "id": "fc328a3cf79a30f1",
-        "type": "tabs",
-        "dimension": 36.885245901639344,
-        "children": [
-          {
-            "id": "8524ce24afbfdb19",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Godot/小型工具/插件/godot_dialogue_manager对话插件.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "godot_dialogue_manager对话插件 的大纲"
-            },
-            "group": "c11bcea3bf1ca1c7"
+              "title": "功能思路"
+            }
           }
         ]
       }
@@ -197,9 +172,11 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
+    "Godot/小型工具/插件/godot_dialogue_manager/godot_dialogue_manager对话插件.md",
+    "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
+    "Godot/小型工具/插件/godot_dialogue_manager",
     "Godot/小型工具/插件",
     "Godot/小型工具/2D传送点.md",
-    "Godot/小型工具/插件/godot_dialogue_manager对话插件.md",
     "Godot/小型工具/事件总线.md",
     "Godot/架构/Comdot架构/介绍.md",
     "Godot/基础/给小白的网站.md",
@@ -238,8 +215,6 @@
     "Godot/架构/Capabilities架构/文档/base_capability.md",
     "Godot/架构/Capabilities架构/文档/action_queue/action_queue.md",
     "Godot/小型工具",
-    "Godot/架构/Capabilities架构/文档/action_queue",
-    "Godot/Capabilities架构/文档/案例/action_queue",
     "未命名.canvas"
   ]
 }
