@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "其余技能/前端/网址.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "网址"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "其余技能/前端/网址.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "网址 的大纲"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -197,8 +197,11 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
-    "模板.md",
     "README.md",
+    "其余技能/前端/网址.md",
+    "其余技能/前端",
+    "其余技能",
+    "模板.md",
     "附件/2024-09-01-相关笔记.md",
     "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
     "Godot/小型工具/插件/godot_dialogue_manager/godot_dialogue_manager对话插件.md",
@@ -234,12 +237,9 @@
     "附件",
     "Pasted image 20251013205055.png",
     "未命名.base",
-    "Godot/shader",
     "Godot/Drawing 2025-10-11 21.16.01.excalidraw.md",
     "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
     "Godot/架构/Capabilities架构/文档/capability_manager.md",
-    "Godot/架构/Capabilities架构/文档/capability_sheet.md",
-    "Godot/小型工具",
     "未命名.canvas"
   ]
 }
