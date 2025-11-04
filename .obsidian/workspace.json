@@ -12,14 +12,12 @@
             "id": "3405971670f191a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Godot/基础/小知识.md",
-                "mode": "source",
-                "source": false
+                "file": "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md"
               },
-              "icon": "lucide-file",
-              "title": "小知识"
+              "icon": "excalidraw-icon",
+              "title": "架构大纲图"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -36,13 +34,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/基础/小知识.md",
+                "file": "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "小知识 的大纲"
+              "title": "架构大纲图 的大纲"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -197,8 +195,23 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
-    "Godot/可补充内容.md",
+    "Godot/架构/Capabilities架构/文档/capability_sheet.md",
+    "Godot/架构/Capabilities架构/文档/capability_component.md",
+    "Godot/架构/Capabilities架构/文档/action_queue/action_queue.md",
+    "Godot/架构/Capabilities架构/文档/案例/projectile_move_cap.md",
+    "Godot/架构/Capabilities架构/文档/案例/结构案例.md",
+    "Godot/架构/Capabilities架构/文档/案例/auto_shoot_cap.md",
+    "Godot/架构/Capabilities架构/文档/案例/player_move_cap.md",
+    "Godot/架构/Capabilities架构/文档/案例/stats_component.md",
+    "Godot/架构/Capabilities架构/画布/大全.canvas",
+    "Godot/架构/Capabilities架构/文档/base_capability.md",
+    "Godot/架构/Capabilities架构/文档/capability_system.md",
+    "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
+    "Godot/架构/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
+    "Godot/架构/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
+    "Godot/架构/Comdot架构/介绍.md",
     "Godot/基础/小知识.md",
+    "Godot/可补充内容.md",
     "README.md",
     "Godot/shader/边缘光照.md",
     "Godot/shader/波浪线视觉.md",
@@ -218,25 +231,10 @@
     "Godot/小型工具/功能/任务系统(TODO 优化).md",
     "Godot/小型工具/功能/2D传送点.md",
     "Godot/小型工具/功能",
-    "Godot/基础/网站.md",
-    "Godot/基础/Node生命周期.md",
-    "模板.md",
-    "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
-    "Godot/小型工具/插件/godot_dialogue_manager/godot_dialogue_manager对话插件.md",
-    "Godot/小型工具/2D传送点.md",
-    "其余技能/前端/网址.md",
     "其余技能/前端",
     "其余技能",
-    "附件/2024-09-01-相关笔记.md",
     "Godot/小型工具/插件/godot_dialogue_manager",
     "Godot/小型工具/插件",
-    "Godot/小型工具/事件总线.md",
-    "Godot/架构/Comdot架构/介绍.md",
-    "Godot/基础/给小白的网站.md",
-    "Godot/小型工具/TileMap 地形原理.md",
-    "Godot/架构/Comdot架构/Component.md",
-    "Godot/架构/Comdot架构/Entity.md",
-    "Godot/架构/Capabilities架构/画布/大全.canvas",
     "附件/Pasted image 20251013205113.png",
     "附件/Pasted image 20251013204628.png",
     "附件/Pasted image 20251013204523.png",

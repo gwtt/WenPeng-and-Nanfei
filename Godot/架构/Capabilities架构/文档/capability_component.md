@@ -20,7 +20,7 @@ func _load_sheets(sheets: Array[CapabilitySheet]):
 		for cap: BaseCapability in caps:  
 			cap.owner = get_parent()  
 			cap.setup()  
-			CapabilityManager.register(cap)  
+			CapabilitySystem.register(cap)  
 			default_capabilities.append(cap)
 			
 ## 阻塞标签
@@ -46,4 +46,5 @@ func is_block(tag: Enums.CapabilityTags) -> bool:
 			return true
 	else:
 		return false
+
 ```

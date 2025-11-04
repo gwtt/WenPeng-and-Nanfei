@@ -1,9 +1,7 @@
 
 ```GDScript
-extends Resource
+extends Node
 class_name BaseCapability
-
-@export var capability_component: CapabilityComponent
 
 var tags = []
 var tick_group: Enums.ETickGroup = Enums.ETickGroup.GamePlay
@@ -21,7 +19,7 @@ func _ready() -> void:
 
 # GameObject实例化时启动, 主动激活
 func set_up() -> void:
-	CapabilityManager.register(self)
+	CapabilitySystem.register(self)
 
 # 激活状态时每帧检查
 func should_activate() -> bool:
@@ -47,7 +45,7 @@ func tick_active(_delta_time: float) -> void:
 func on_owner_destroyed():
 	if (active):
 		on_deactivate()
-	CapabilityManager.unregister(self)
+	CapabilitySystem.unregister(self)
 
 # 切换激活状态,返回切换后的值
 func toggle() -> bool:
@@ -68,4 +66,5 @@ func toggle() -> bool:
 		return true
 
 	return false
+
 ```

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"4cc14e0a542b8771","type":"file","file":"Godot/架构/Capabilities架构/文档/capability_manager.md","x":-1200,"y":-240,"width":540,"height":840},
+		{"id":"4cc14e0a542b8771","type":"file","file":"Godot/架构/Capabilities架构/文档/capability_system.md","x":-1200,"y":-240,"width":540,"height":840},
 		{"id":"fa5bb56985364864","type":"file","file":"Godot/架构/Capabilities架构/文档/capability_sheet.md","x":-640,"y":-240,"width":800,"height":840},
 		{"id":"fe8b0ce6a1abc68a","type":"file","file":"Godot/架构/Capabilities架构/文档/base_capability.md","x":-1800,"y":-240,"width":570,"height":840},
 		{"id":"cb5ea2fd45f4f856","type":"file","file":"Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md","x":-1800,"y":-1320,"width":1140,"height":1040},

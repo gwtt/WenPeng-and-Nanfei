@@ -1,6 +1,5 @@
 ```GDScript
-# capability_sheet.gd
-extends Resource
+extends Node
 class_name CapabilitySheet
 
 @export var component_scenes : Array[PackedScene]           
@@ -9,7 +8,8 @@ class_name CapabilitySheet
 
 func instantiate(owner: Node) -> Array[BaseCapability]:
 	var caps: Array[BaseCapability] = []
-
+	
+	# 1. 场景加载
 	for scene in component_scenes: 
 		var node_name := scene.resource_path.get_file().get_basename() 
 		if owner.has_node(node_name): # 简单去重 
