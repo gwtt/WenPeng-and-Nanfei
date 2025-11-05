@@ -12,12 +12,14 @@
             "id": "3405971670f191a6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md"
+                "file": "Godot/小型工具/功能/长短跳机制.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "架构大纲图"
+              "icon": "lucide-file",
+              "title": "长短跳机制"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -34,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
+                "file": "Godot/小型工具/功能/长短跳机制.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "架构大纲图 的大纲"
+              "title": "长短跳机制 的大纲"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -195,18 +197,25 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
+    "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
+    "Godot/小型工具/功能/长短跳机制.md",
     "Godot/架构/Capabilities架构/文档/capability_sheet.md",
+    "Godot/架构/Capabilities架构/文档/capability_system.md",
+    "Godot/架构/Capabilities架构/文档/案例/player_move_cap.md",
+    "Godot/架构/Capabilities架构/画布/大全.canvas",
+    "其余技能/乐理/网址.md",
+    "乐理/参考网站.md",
+    "其余技能/未命名.md",
+    "其余技能/乐理",
+    "其余技能/前端/网址.md",
+    "乐理",
     "Godot/架构/Capabilities架构/文档/capability_component.md",
     "Godot/架构/Capabilities架构/文档/action_queue/action_queue.md",
     "Godot/架构/Capabilities架构/文档/案例/projectile_move_cap.md",
     "Godot/架构/Capabilities架构/文档/案例/结构案例.md",
     "Godot/架构/Capabilities架构/文档/案例/auto_shoot_cap.md",
-    "Godot/架构/Capabilities架构/文档/案例/player_move_cap.md",
     "Godot/架构/Capabilities架构/文档/案例/stats_component.md",
-    "Godot/架构/Capabilities架构/画布/大全.canvas",
     "Godot/架构/Capabilities架构/文档/base_capability.md",
-    "Godot/架构/Capabilities架构/文档/capability_system.md",
-    "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
     "Godot/架构/Comdot架构/介绍.md",
@@ -224,17 +233,10 @@
     "附件/未命名 1.base",
     "Image/Pasted image 20251021175036.png",
     "Image/Pasted image 20251021162221.png",
-    "Godot/小型工具/通用/鼠标穿透.md",
-    "Godot/小型工具/通用/事件总线.md",
     "Godot/小型工具/通用",
-    "Godot/小型工具/功能/简易背包合成系统(TODO 优化).md",
-    "Godot/小型工具/功能/任务系统(TODO 优化).md",
-    "Godot/小型工具/功能/2D传送点.md",
     "Godot/小型工具/功能",
     "其余技能/前端",
     "其余技能",
-    "Godot/小型工具/插件/godot_dialogue_manager",
-    "Godot/小型工具/插件",
     "附件/Pasted image 20251013205113.png",
     "附件/Pasted image 20251013204628.png",
     "附件/Pasted image 20251013204523.png",
