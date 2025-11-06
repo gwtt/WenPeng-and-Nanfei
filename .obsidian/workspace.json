@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/小型工具/功能/长短跳机制.md",
-                "mode": "preview",
+                "file": "Godot/架构/Capabilities架构/文档/capability_component.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "长短跳机制"
+              "title": "capability_component"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/小型工具/功能/长短跳机制.md",
+                "file": "Godot/架构/Capabilities架构/文档/capability_component.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "长短跳机制 的大纲"
+              "title": "capability_component 的大纲"
             },
             "group": "e05bd60c09b3057b"
           }
@@ -197,13 +197,19 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
+    "Godot/架构/Capabilities架构/文档/base_capability.md",
+    "Godot/架构/Capabilities架构/文档/案例/player_move_cap.md",
+    "Godot/小型工具/功能/任务系统(TODO 优化).md",
+    "Godot/小型工具/功能/简易背包合成系统(TODO 优化).md",
+    "Godot/架构/Capabilities架构/文档/案例/stats_component.md",
+    "Godot/架构/Capabilities架构/文档/案例/projectile_move_cap.md",
+    "Godot/架构/Capabilities架构/文档/案例/auto_shoot_cap.md",
     "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
+    "其余技能/乐理/网址.md",
     "Godot/小型工具/功能/长短跳机制.md",
     "Godot/架构/Capabilities架构/文档/capability_sheet.md",
     "Godot/架构/Capabilities架构/文档/capability_system.md",
-    "Godot/架构/Capabilities架构/文档/案例/player_move_cap.md",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
-    "其余技能/乐理/网址.md",
     "乐理/参考网站.md",
     "其余技能/未命名.md",
     "其余技能/乐理",
@@ -211,11 +217,7 @@
     "乐理",
     "Godot/架构/Capabilities架构/文档/capability_component.md",
     "Godot/架构/Capabilities架构/文档/action_queue/action_queue.md",
-    "Godot/架构/Capabilities架构/文档/案例/projectile_move_cap.md",
     "Godot/架构/Capabilities架构/文档/案例/结构案例.md",
-    "Godot/架构/Capabilities架构/文档/案例/auto_shoot_cap.md",
-    "Godot/架构/Capabilities架构/文档/案例/stats_component.md",
-    "Godot/架构/Capabilities架构/文档/base_capability.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
     "Godot/架构/Comdot架构/介绍.md",
@@ -224,8 +226,6 @@
     "README.md",
     "Godot/shader/边缘光照.md",
     "Godot/shader/波浪线视觉.md",
-    "Godot/shader/故障风.md",
-    "Godot/shader/电视机CRT.md",
     "Image/Pasted image 20251016143355.png",
     "附件/未命名.base",
     "附件/未命名 3.base",

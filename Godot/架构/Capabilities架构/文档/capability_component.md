@@ -27,7 +27,6 @@ func _load_sheets(sheets: Array[CapabilitySheet]):
 func block_capabilities(tag: Enums.CapabilityTags, capability: BaseCapability) -> void:
 	if !tag_blockers.has(tag):
 		tag_blockers[tag] = []
-		return
 	if tag_blockers[tag].has(capability):
 		return	
 	tag_blockers[tag].append(capability)
