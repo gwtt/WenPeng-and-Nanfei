@@ -68,3 +68,9 @@ func toggle() -> bool:
 	return false
 
 ```
+
+1. 当GameObject Spawned时，我们在该GameObject上的Capabilities上运行`Setup`，通常用于初始化本地成员变量，比如从GameObject上获取Component的引用/指针
+2. 当某个Capability处于非激活状态（Inactive）时，我们**每帧检查**`ShouldActivate`
+3. 在某个时刻，`ShouldActivate`返回`true`，这个Capability变为激活状态（Active），我们运行`OnActivated`
+4. 当这个Capability处于激活状态时，我们改为**每帧检查**`ShouldDeactivate`，并且**每帧运行**`TickActive`
+5. 当`ShouldDeactivate`返回`true`时，我们运行`OnDeactivated`，然后回到**每帧检查**`ShouldActivate`
