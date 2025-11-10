@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其余技能/绘画/网址.md",
+                "file": "其余技能/前端/网址.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,7 +36,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "其余技能/绘画/网址.md",
+                "file": "其余技能/前端/网址.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,8 +197,9 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
-    "其余技能/前端/网址.md",
+    "其余技能/乐理/网址.md",
     "其余技能/绘画/网址.md",
+    "其余技能/前端/网址.md",
     "其余技能/绘画",
     "Godot/小型工具/插件/godot-statecharts/基本用法.md",
     "Godot/小型工具/插件/godot_dialogue_manager/基本用法.md",
@@ -211,7 +212,6 @@
     "Godot/架构/Capabilities架构/文档/capability_system.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
     "Godot/架构/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
-    "其余技能/乐理/网址.md",
     "Godot/架构/Capabilities架构/文档/案例/讲解链接.md",
     "Godot/架构/Capabilities架构/Exceldraw图/架构大纲图.md",
     "Godot/架构/Capabilities架构/文档/案例/结构案例.md",
