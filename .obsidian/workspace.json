@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其余技能/前端/网址.md",
+                "file": "其余技能/绘画/网址.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,7 +36,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "其余技能/前端/网址.md",
+                "file": "其余技能/绘画/网址.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,6 +197,9 @@
   },
   "active": "3405971670f191a6",
   "lastOpenFiles": [
+    "其余技能/前端/网址.md",
+    "其余技能/绘画/网址.md",
+    "其余技能/绘画",
     "Godot/小型工具/插件/godot-statecharts/基本用法.md",
     "Godot/小型工具/插件/godot_dialogue_manager/基本用法.md",
     "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
@@ -223,10 +226,8 @@
     "乐理/参考网站.md",
     "其余技能/未命名.md",
     "其余技能/乐理",
-    "其余技能/前端/网址.md",
     "乐理",
     "Godot/架构/Comdot架构/介绍.md",
-    "Godot/基础/小知识.md",
     "Image/Pasted image 20251016143355.png",
     "附件/未命名.base",
     "附件/未命名 3.base",
@@ -236,7 +237,6 @@
     "Image/Pasted image 20251021162221.png",
     "Godot/小型工具/通用",
     "Godot/小型工具/功能",
-    "其余技能/前端",
     "附件/Pasted image 20251013205113.png",
     "附件/Pasted image 20251013204628.png",
     "附件/Pasted image 20251013204523.png",
