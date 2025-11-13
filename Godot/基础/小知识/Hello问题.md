@@ -1,5 +1,4 @@
-
-### 1. "hello"、&"hello"、^"hello"的区别
+> "hello"、&"hello"、^"hello"的区别
 
 在 Godot 4（含以后的 3.x LTS 版本）里的 GDScript 中，  
 "hello"、&"hello"、^"hello" 这三种写法代表三种不同的类型：
@@ -24,4 +23,4 @@
     • 普通 String 则各自占用独立内存。
     
 3. 语法简洁  
-    • 以前必须写 `StringName("IndoorZone")`；4.0 开始直接写 &"IndoorZone"，既直观又是编译期常量。
+    • 以前必须写 `StringName("IndoorZone")`；4.0 
