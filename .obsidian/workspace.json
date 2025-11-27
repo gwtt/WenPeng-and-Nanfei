@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
+                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务系统"
+              "title": "设计"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -51,13 +51,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
+                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "任务系统 的大纲"
+              "title": "设计 的大纲"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -212,8 +212,11 @@
   },
   "active": "d8cbcf5c63e2d13d",
   "lastOpenFiles": [
-    "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
+    "Godot/亲自做游戏/简单肉鸽/设计.md",
+    "Godot/亲自做游戏/简单肉鸽",
+    "Godot/亲自做游戏",
+    "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/代码结构优化.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/坑点.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/Buff或系统技能组合系统.md",
@@ -246,13 +249,10 @@
     "Godot/架构/Capabilities架构/文档/capability_component.md",
     "Godot/架构/Capabilities架构/文档/base_capability.md",
     "Godot/架构/Capabilities架构/文档/capability_sheet.md",
-    "Godot/架构/Capabilities架构/文档/capability_system.md",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
     "其余技能/乐理",
     "乐理",
     "Image/Pasted image 20251016143355.png",
-    "附件/未命名.base",
-    "附件/未命名 3.base",
     "Image/Pasted image 20251021175036.png",
     "Image/Pasted image 20251021162221.png",
     "附件/Pasted image 20251013205113.png",
