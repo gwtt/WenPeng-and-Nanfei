@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
+                "file": "Godot/小型工具/功能/触手.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设计"
+              "title": "触手"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -51,13 +51,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
+                "file": "Godot/小型工具/功能/触手.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "设计 的大纲"
+              "title": "触手 的大纲"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -212,8 +212,9 @@
   },
   "active": "d8cbcf5c63e2d13d",
   "lastOpenFiles": [
-    "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
     "Godot/亲自做游戏/简单肉鸽/设计.md",
+    "Godot/小型工具/功能/触手.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
     "Godot/亲自做游戏/简单肉鸽",
     "Godot/亲自做游戏",
     "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
@@ -248,7 +249,6 @@
     "Godot/小型工具/插件/godot-statecharts",
     "Godot/架构/Capabilities架构/文档/capability_component.md",
     "Godot/架构/Capabilities架构/文档/base_capability.md",
-    "Godot/架构/Capabilities架构/文档/capability_sheet.md",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
     "其余技能/乐理",
     "乐理",
