@@ -6,7 +6,7 @@
       {
         "id": "4670c0af13089c45",
         "type": "tabs",
-        "dimension": 79.53105196451205,
+        "dimension": 79.78453738910012,
         "children": [
           {
             "id": "3405971670f191a6",
@@ -14,37 +14,52 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/架构/Comdot架构/空洞骑士/空洞骑士 使用.md",
+                "file": "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "空洞骑士 使用"
+              "title": "大概"
+            }
+          },
+          {
+            "id": "d8cbcf5c63e2d13d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "任务系统"
             },
-            "group": "e05bd60c09b3057b"
+            "group": "4a39b11ce3ed3320"
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "5d4f53f4b5f737c4",
+        "id": "432480b1003c9046",
         "type": "tabs",
-        "dimension": 20.468948035487962,
+        "dimension": 20.215462610899873,
         "children": [
           {
-            "id": "1ec72ca65719dc5d",
+            "id": "b4580e31f55c6367",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/架构/Comdot架构/空洞骑士/空洞骑士 使用.md",
+                "file": "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "空洞骑士 使用 的大纲"
+              "title": "任务系统 的大纲"
             },
-            "group": "e05bd60c09b3057b"
+            "group": "4a39b11ce3ed3320"
           }
         ]
       }
@@ -195,12 +210,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3405971670f191a6",
+  "active": "d8cbcf5c63e2d13d",
   "lastOpenFiles": [
-    "Godot/架构/Comdot架构/空洞骑士/坑点.md",
-    "Godot/架构/Comdot架构/空洞骑士/空洞骑士 使用.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/代码结构优化.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/坑点.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/Buff或系统技能组合系统.md",
     "Godot/基础/小知识/Scale.x = -1.md",
-    "Godot/架构/Comdot架构/空洞骑士",
+    "Godot/架构/Comdot架构/空洞骑士 使用",
     "Image/Pasted image 20251124204900.png",
     "Image/Pasted image 20251124204856.png",
     "Image/Pasted image 20251124204226.png",
@@ -229,9 +247,6 @@
     "Godot/架构/Capabilities架构/文档/base_capability.md",
     "Godot/架构/Capabilities架构/文档/capability_sheet.md",
     "Godot/架构/Capabilities架构/文档/capability_system.md",
-    "Godot/架构/Capabilities架构/文档/action_queue/案例 2：交互拾取宝箱.md",
-    "Godot/架构/Capabilities架构/文档/action_queue/案例 1：玩家死亡流程.md",
-    "Godot/架构/Capabilities架构/文档/案例/讲解链接.md",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
     "其余技能/乐理",
     "乐理",
