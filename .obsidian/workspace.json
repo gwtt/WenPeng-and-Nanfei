@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
+                "file": "Godot/联机/SteamMultiplayerPeer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "设计"
+              "title": "SteamMultiplayerPeer"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -51,13 +51,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Godot/亲自做游戏/简单肉鸽/设计.md",
+                "file": "Godot/联机/SteamMultiplayerPeer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "设计 的大纲"
+              "title": "SteamMultiplayerPeer 的大纲"
             },
             "group": "4a39b11ce3ed3320"
           }
@@ -213,8 +213,11 @@
   },
   "active": "d8cbcf5c63e2d13d",
   "lastOpenFiles": [
-    "Godot/亲自做游戏/简单肉鸽/设计数据.md",
+    "Image/Pasted image 20251208170801.png",
     "Godot/亲自做游戏/简单肉鸽/设计.md",
+    "Godot/联机/SteamMultiplayerPeer.md",
+    "Godot/联机",
+    "Godot/亲自做游戏/简单肉鸽/设计数据.md",
     "Godot/亲自做游戏/简单肉鸽/流程.md",
     "附件/未命名 4.base",
     "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
@@ -247,11 +250,8 @@
     "其余技能/游戏申请相关",
     "Godot/基础/小知识/Animationplayer与CollisionPolygon2D.md",
     "Godot/基础/小知识/Hello问题.md",
-    "Godot/基础/小知识.md",
-    "Godot/基础/Node生命周期.md",
     "Godot/基础/小知识",
     "其余技能/绘画",
-    "Godot/小型工具/插件/godot-statecharts",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
     "Image/Pasted image 20251016143355.png",
     "Image/Pasted image 20251021175036.png",
