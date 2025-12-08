@@ -128,7 +128,7 @@ func play_footstep():
 |**生成怪物/子弹**|MultiplayerSpawner|刷怪、射击产物|房主生成，自动同步|
 |**切换关卡**|RPC|所有人进入下一关|房主调用 load_level.rpc()|
 
-## 5. 建议
+## 5.建议
 
 1. **权限分离（Authority）**：  
 这是最容易晕的地方。你需要时刻问自己：**“这段代码是谁在跑？”**
@@ -156,3 +156,59 @@ func _physics_process(delta):
 3. **SDR 的优势**
 
 因为你用了 SteamMultiplayerPeer，当你调用 rpc 或使用 Synchronizer 时，数据就是通过你之前问的 **SDR 架构** 传输的。你享受了 Godot 的易用性，同时拥有了 Steam 的稳定性和防内网穿透能力。
+
+## 6.问题
+
+### 1. MultiplayerSynchronizer这些godot自带的api怎么直接对接steam的SDR的
+
+为了让你彻底理解它们是怎么“勾搭”上的，我们不需要看复杂的代码，只需要理解一个**“三层汉堡”**的关系。
+
+### 🍔 联机架构的“三层汉堡”
+
+#### 1. 顶层：你的逻辑 (Godot Nodes)
+
+- **代表**：MultiplayerSynchronizer, MultiplayerSpawner, @rpc。
+    
+- **它的工作**：它只负责**产生数据**。
+    
+    - 比如 MultiplayerSynchronizer 说：“哎呀，玩家坐标变了，现在的坐标是 (10, 20)，快把这个数据发出去！”
+        
+    - **注意**：它根本不知道，也不在乎数据是怎么发出去的。它不管你是用 WiFi、蓝牙、网线，还是 Steam。它只管把数据打包好，扔给下一层。
+        
+
+#### 2. 中间层：Godot 引擎核心 (Multiplayer API)
+
+- **代表**：multiplayer (全局变量)。
+    
+- **它的工作**：它是**调度员**。
+    
+    - 它接过顶层扔过来的数据包，然后问：“我们要走哪条路发出去？”
+        
+    - 它会查看你设置的 multiplayer_peer 到底是谁。
+        
+
+#### 3. 底层：传输通道 (Network Peer)
+
+- **代表**：**SteamMultiplayerPeer** (这就是关键！)。
+    
+- **它的工作**：它是**快递员**。
+    
+    - 如果你设置了 multiplayer.multiplayer_peer = SteamMultiplayerPeer.new()。
+        
+    - 中间层就会把数据交给 Steam 的快递员。
+        
+    - Steam 快递员接过数据，直接塞进 **SDR (Steam Datagram Relay)** 的卡车里（Valve 的骨干网），运到对方电脑。
+
+因为连接这三层的，只有**一行代码**。
+
+```GDscript
+multiplayer.multiplayer_peer = peer
+```
+
+1. 你场景里的 MultiplayerSynchronizer 依然照常工作，它根本不知道自己其实是在通过 Steam 发数据。
+    
+2. Godot 引擎会自动把同步器产生的位置数据（比如每秒 60 次更新），全部转交给 SteamMultiplayerPeer。
+    
+3. SteamMultiplayerPeer 会自动把这些数据加密、分片，通过 **SDR** 发送。
+
+总的来说，你如果不想用steam，将SteamMultiplayerPeer换成其余的就行。
