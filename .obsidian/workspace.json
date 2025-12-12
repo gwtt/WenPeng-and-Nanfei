@@ -4,62 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4670c0af13089c45",
-        "type": "tabs",
-        "dimension": 79.78453738910012,
-        "children": [
-          {
-            "id": "3405971670f191a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "大概"
-            }
-          },
-          {
-            "id": "d8cbcf5c63e2d13d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Godot/联机/SteamMultiplayerPeer（多人游戏对等）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SteamMultiplayerPeer（多人游戏对等）"
-            },
-            "group": "4a39b11ce3ed3320"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "432480b1003c9046",
         "type": "tabs",
-        "dimension": 20.215462610899873,
         "children": [
           {
-            "id": "b4580e31f55c6367",
+            "id": "c2f38060d62ca5dd",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "markdown",
               "state": {
-                "file": "Godot/联机/SteamMultiplayerPeer（多人游戏对等）.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "其余技能/写作/网址.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-list",
-              "title": "SteamMultiplayerPeer（多人游戏对等） 的大纲"
-            },
-            "group": "4a39b11ce3ed3320"
+              "icon": "lucide-file",
+              "title": "网址"
+            }
           }
         ]
       }
@@ -93,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#工具推荐",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,16 +172,26 @@
       "sheet-plus:创建 Excel 文件": false
     }
   },
-  "active": "d8cbcf5c63e2d13d",
+  "active": "120f5189db88c866",
   "lastOpenFiles": [
-    "Image/Pasted image 20251208170801.png",
+    "附件/未命名 4.base",
+    "附件/未命名 3.base",
+    "附件/未命名 2.base",
+    "附件/未命名 1.base",
+    "附件/未命名.base",
+    "附件/123.md",
+    "其余技能/写作/网址.md",
+    "其余技能/写作/初衷.md",
+    "其余技能/前端/网址.md",
+    "其余技能/写作",
+    "其余技能/未命名.md",
     "Godot/亲自做游戏/简单肉鸽/设计.md",
+    "Godot/亲自做游戏/简单肉鸽/流程.md",
+    "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
     "Godot/联机/SteamMultiplayerPeer（多人游戏对等）.md",
+    "Image/Pasted image 20251208170801.png",
     "Godot/联机",
     "Godot/亲自做游戏/简单肉鸽/设计数据.md",
-    "Godot/亲自做游戏/简单肉鸽/流程.md",
-    "附件/未命名 4.base",
-    "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
     "Godot/亲自做游戏/谜团/设计.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/代码结构优化.md",
     "Godot/亲自做游戏/谜团",
@@ -242,16 +213,7 @@
     "Godot/小型工具/插件/godot_dialogue_manager/功能思路.md",
     "Godot/小型工具/插件/phantom-camera/基本用法.md",
     "其余技能/绘画/网址.md",
-    "Godot/小型工具/插件/phantom-camera",
     "其余技能/乐理/网址.md",
-    "其余技能/前端/网址.md",
-    "其余技能/游戏申请相关/网络游戏实名认证系统接口代码.md",
-    "其余技能/未命名.md",
-    "其余技能/游戏申请相关",
-    "Godot/基础/小知识/Animationplayer与CollisionPolygon2D.md",
-    "Godot/基础/小知识/Hello问题.md",
-    "Godot/基础/小知识",
-    "其余技能/绘画",
     "Godot/架构/Capabilities架构/画布/大全.canvas",
     "Image/Pasted image 20251016143355.png",
     "Image/Pasted image 20251021175036.png",
@@ -259,7 +221,6 @@
     "附件/Pasted image 20251013205113.png",
     "附件/Pasted image 20251013204628.png",
     "附件/Pasted image 20251013204523.png",
-    "附件/Pasted image 20251013204552.png",
     "未命名.canvas"
   ]
 }
