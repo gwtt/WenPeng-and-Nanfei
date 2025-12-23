@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot/联机/Steam联机基本知识.md",
+                "file": "Godot/亲自做游戏/简单肉鸽/设计/Boss.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Steam联机基本知识"
+              "title": "Boss"
             }
           }
         ]
@@ -173,22 +173,24 @@
   },
   "active": "0b412fad3de40b3d",
   "lastOpenFiles": [
-    "Godot/亲自做游戏/简单肉鸽/设计/层级定义.md",
-    "Godot/联机/Steam联机基本知识.md",
-    "Godot/亲自做游戏/简单肉鸽/设计/技能.md",
-    "Godot/亲自做游戏/简单肉鸽/设计/装备.md",
-    "Godot/亲自做游戏/简单肉鸽/设计/角色.md",
     "Godot/亲自做游戏/简单肉鸽/设计/NPC.md",
+    "Godot/亲自做游戏/简单肉鸽/设计/层级定义.md",
+    "Godot/亲自做游戏/简单肉鸽/GDD.md",
+    "Godot/亲自做游戏/简单肉鸽/设计数据.md",
+    "Godot/亲自做游戏/简单肉鸽/设计.md",
+    "Godot/亲自做游戏/简单肉鸽/流程.md",
+    "Godot/亲自做游戏/简单肉鸽/设计/装备.md",
+    "Godot/亲自做游戏/简单肉鸽/设计/Boss.md",
+    "Godot/亲自做游戏/简单肉鸽/设计/技能.md",
+    "Godot/亲自做游戏/简单肉鸽/设计/角色.md",
+    "其余技能/游戏申请相关/网络游戏实名认证系统接口代码.md",
+    "Godot/联机/SteamMultiplayerPeer（多人游戏对等）.md",
+    "Godot/联机/Steam联机基本知识.md",
     "其余技能/写作/网址.md",
     "其余技能/写作/初衷.md",
-    "Godot/亲自做游戏/简单肉鸽/GDD.md",
-    "Godot/亲自做游戏/简单肉鸽/设计/Boss.md",
     "其余技能/做菜/鲜肉小馄饨.md",
     "其余技能/做菜",
-    "Godot/亲自做游戏/简单肉鸽/流程.md",
-    "Godot/亲自做游戏/简单肉鸽/设计数据.md",
     "Godot/亲自做游戏/简单肉鸽/设计",
-    "Godot/亲自做游戏/简单肉鸽/设计.md",
     "附件/未命名 5.base",
     "附件/未命名 4.base",
     "附件/未命名 3.base",
@@ -200,7 +202,6 @@
     "其余技能/写作",
     "其余技能/未命名.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/大概.md",
-    "Godot/联机/SteamMultiplayerPeer（多人游戏对等）.md",
     "Image/Pasted image 20251208170801.png",
     "Godot/联机",
     "Godot/亲自做游戏/谜团/设计.md",
@@ -209,7 +210,6 @@
     "Godot/架构/Comdot架构/空洞骑士 使用/坑点.md",
     "Godot/架构/Comdot架构/空洞骑士 使用/任务系统.md",
     "Godot/小型工具/功能/2D传送点.md",
-    "Godot/小型工具/功能/触手.md",
     "Image/Pasted image 20251124204900.png",
     "Image/Pasted image 20251124204856.png",
     "Image/Pasted image 20251124204226.png",
