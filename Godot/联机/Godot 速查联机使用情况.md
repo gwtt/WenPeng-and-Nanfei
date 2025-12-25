@@ -157,16 +157,16 @@ RPC (Remote Procedure Call) 适用于**“瞬间发生、触发一次”**的事
 
 ### ⚡ 终极速查表
 
-|   |   |   |
-|---|---|---|
-|需求|推荐机制|代码/配置|
-|**角色移动 (Position)**|**同步器**|MultiplayerSynchronizer (Watch: position)|
-|**当前血量 (HP)**|**同步器**|MultiplayerSynchronizer (Watch: hp)|
-|**玩家点击攻击键**|**RPC (上行)**|@rpc("any_peer", "call_local", "reliable")|
-|**判定伤害/扣血**|**普通函数 + 权限锁**|func take_damage(): if not authority: return|
-|**飘字/特效/音效**|**RPC (下行)**|@rpc("authority", "call_local", "unreliable")|
-|**玩家死亡/重生**|**RPC (下行)**|@rpc("authority", "call_local", "reliable")|
-|**AI 寻路/Boss行为**|**普通函数 + 权限锁**|_process(): if not authority: return|
+|                     |                |                                               |
+| ------------------- | -------------- | --------------------------------------------- |
+| 需求                  | 推荐机制           | 代码/配置                                         |
+| **角色移动 (Position)** | **同步器**        | MultiplayerSynchronizer (Watch: position)     |
+| **当前血量 (HP)**       | **同步器**        | MultiplayerSynchronizer (Watch: hp)           |
+| **玩家点击攻击键**         | **RPC (上行)**   | @rpc("any_peer", "call_local", "reliable")    |
+| **判定伤害/扣血**         | **普通函数 + 权限锁** | func take_damage(): if not authority: return  |
+| **飘字/特效/音效**        | **RPC (下行)**   | @rpc("authority", "call_local", "unreliable") |
+| **玩家死亡/重生**         | **RPC (下行)**   | @rpc("authority", "call_local", "reliable")   |
+| **AI 寻路/Boss行为**    | **普通函数 + 权限锁** | _process(): if not authority: return          |
 
 ### 常见误区警示 ⚠️
 
